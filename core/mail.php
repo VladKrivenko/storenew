@@ -26,11 +26,18 @@ foreach ($cart as $id=>$count){
 
 // print_r($message);
 
-$to = 'nesslaen@ukr.net'.',';
+$to = 'nesslaendyplom@gmail.com'.',';
 $to .=$_POST['email'];
-$spectext = '<!DOCTYPE html><html><head><title>order</title</head><body>';
-$headers = 'MIME-Version: 1.0' . "\r\n";
+// $spectext = '<!DOCTYPE html><html><head><title>order</title</head><body>';
+// $headers = 'MIME-Version: 1.0' . "\r\n";
+// $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+// <?mail($to, 'Order in Oceanarium store', $spectext.$message.'</body></html>', $headers);
+
+
+$spectext = '<!DOCTYPE HTML><html><head><title>Заказ</title></head><body>';
+$headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-mail($to, 'Order in Oceanarium store', $spectext.$message.'</body></html>', $headers);
+
+$m = mail($to, 'Order in Oceanarium', $spectext.$message.'</body></html>', $headers);
 
 if (mail) {echo 1;} else {echo 0;}
