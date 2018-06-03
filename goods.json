@@ -1,0 +1,65 @@
+{
+	"0001" : {
+		"name": "Harbour Porpoise Tote bag",
+		"cost": 15,
+		"description": "Made of non-woven materials",
+		"order": 1,
+		"img" : "store_item1.jpg"
+	},
+	"0002" : {
+		"name": "Oceanarium Frog Bag",
+		"cost": 15,
+		"description": "Made of non-woven materials",
+		"order": 2,
+		"img" : "store_item2.jpg"
+	},
+	"0003" : {
+		"name": "Men's V-Neck T-Shirt",
+		"cost": 22.99,
+		"description": "Made of non-woven materials",
+		"order": 3,
+		"img" : "store_item3.jpg"
+	},
+	"0004" : {
+		"name": "Harbour Porpoise Tote bag pink",
+		"cost": 15,
+		"description": "Made of non-woven materials",
+		"order": 4,
+		"img" : "store_item4.jpg"
+	},
+	"0005" : {
+		"name": "Oceanariun Octopus Toy",
+		"cost": 14.50,
+		"description": "Made of non-woven materials",
+		"order": 5,
+		"img" : "store_item5.jpg"
+	},
+	"0006" : {
+		"name": "Shark socks",
+		"cost": 15.99,
+		"description": "Made of non-woven materials",
+		"order": 6,
+		"img" : "store_item6.jpg"
+	},
+	"0007" : {
+		"name": "Stingray Men's T-Shirt",
+		"cost": 19.99,
+		"description": "Made of non-woven materials",
+		"order": 7,
+		"img" : "store_item7.jpg"
+	},
+	"0008" : {
+		"name": "Oceanarium Fishes Cup",
+		"cost": 15,
+		"description": "Made of non-woven materials",
+		"order": 8,
+		"img" : "store_item8.jpg"
+	},
+	"0009" : {
+		"name": "Penguin Black Cup",
+		"cost": 15,
+		"description": "Made of non-woven materials",
+		"order": 9,
+		"img" : "store_item9.jpg"
+	}
+}
